@@ -53,10 +53,12 @@ export default () => {
                 pricecar,
             }) => (
                 <SwiperSlide
+                    id={id}
                     key={id}
                     photo={photo}
                 >
                     <SlideItem
+                        id={id}
                         key={id}
                         photo={photo}
                         description={description}

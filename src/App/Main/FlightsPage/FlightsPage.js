@@ -15,20 +15,20 @@ const FlightsPage = () => {
                         id,
                         head,
                         photo,
+                        //image,
                         description,
                         classwindrose,
-                        gridcol,
                         color,
                     }) => (
                         <ArticleItem
-                            //id={head}
+                            id={id}
                             key={id}
                             head={head}
                             photo={photo}
+                            //image={image}
                             description={description}
                             color={color}
                             classwindrose={classwindrose}
-                            gridcol={gridcol}
                         />
                     ))
                 }

@@ -13,11 +13,11 @@ const FlightItem = ({
     flightsObject = getFlightsObject(flights),
 }) => {
     const id = match.params.id
-    console.log(match)
+    /*console.log(match)*/
     console.log(flightsObject)
     return(
     
-        <div className="flights-head"> {flightsObject[id]}</div>
+        <div className="flights-head"> {flightsObject[id].head}</div>
     )
 }
 

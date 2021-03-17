@@ -6,6 +6,7 @@ const ArticleItem = ({
     id,
     head,
     photo,
+    //image,
     classwindrose,
     description,
     color,
@@ -17,7 +18,7 @@ const ArticleItem = ({
             <div className={`article-item ${classwindrose}`}>
                 <div className="photo-article"
                     style={{
-                        backgroundImage: `url(${photo})`,
+                        backgroundImage: `(url(${photo})`,
                     }}
                 ></div>
                 <div className="article-row"
@@ -25,7 +26,7 @@ const ArticleItem = ({
                         backgroundColor: `${color}`
                     }}
                 >   
-                    <Link to={`/flightitem/${head}`} className="head-article">
+                    <Link to={`/flightitem/${id}`} className="head-article">
                         <h3>{head}</h3>
                     </Link>
                     <p className="article">{description}</p>
