@@ -18,7 +18,7 @@ const ArticleItem = ({
             <div className={`article-item ${classwindrose}`}>
                 <div className="photo-article"
                     style={{
-                        backgroundImage: `(url(${photo})`,
+                        backgroundImage: `url(${photo})`,
                     }}
                 ></div>
                 <div className="article-row"
