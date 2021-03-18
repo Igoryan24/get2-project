@@ -12,7 +12,7 @@ const ArticleItem = ({
     color,
 
 }) => {
-
+    console.log(photo)
     return (
         <>
             <div className={`article-item ${classwindrose}`}>
